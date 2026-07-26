@@ -203,7 +203,7 @@ export default function AuthScreen() {
             });
 
             if (error) {
-                showAlert('เข้าสู่ระบบล้มเหลว', error.message);
+                showAlert('เข้าสู่ระบบล้มเหลวx', error.message);
                 setLoading(false);
                 setAuthProvider(null);
             }
